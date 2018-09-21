@@ -20,32 +20,32 @@ body {
   display: flex;
 }
 
-.header__logo {
+.logo {
   font-size: 24px;
   color: #fff;
-  font-weight: 800;
+  font-weight: bold;
   cursor: pointer;
   margin-top: 56px;
   margin-left: 10%;
 }
 
-.header__navigation {
+.navigation {
   margin-top: 56px;
   margin-left: 29%;
 }
 
-.header__links {
+.navigation__links {
   text-align: center;
   padding: 12px 16px;
   font-size: 14px;
   font-weight: bold;
 }
 
-.header__links:hover {
+.navigation__links:hover {
   border-bottom: 3px solid #fcac45;
 }
 
-.header__icon {
+.navigation__icon {
   display: none;
 }
 
@@ -58,30 +58,30 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-  .header__navigation {
+  .navigation {
     margin-left: 20%;
   }
 }
 
 @media screen and (max-width: 1105px) {
-  .header__navigation {
+  .navigation {
     margin-left: 10%;
   }
 }
 
 @media screen and (max-width: 1010px) {
-  .header__links {
+  .navigation__links {
     display: none;
   }
 
-  .header__icon {
+  .navigation__icon {
     float: right;
     display: block;
     margin-top: -17px;
     font-size: 25px;
   }
 
-  .header__navigation {
+  .navigation {
     width: 100%;
   }
 
@@ -92,13 +92,13 @@ body {
     height: 340px;
   }
 
-  .responsive .header__icon {
+  .responsive .navigation__icon {
     position: absolute;
     top: -50px;
     right: -200px;
   }
 
-  .responsive .header__links {
+  .responsive .navigation__links {
     float: none;
     display: block;
     text-align: left;
