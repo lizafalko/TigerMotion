@@ -1,0 +1,28 @@
+.main-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-block__welcome {
+  background-color: #000;
+  text-align: center;
+  padding: 200px 0 400px 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+.main-block__heading {
+  margin-bottom: 10px;
+}
+
+.main-block__welcome--orange {
+  color: #fcac45;
+}
+
+.welcome_color {
+  color: #999999;
+}
+
+.main-block__text {
+  color: silver;
+}

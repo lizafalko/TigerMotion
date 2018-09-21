@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TigerMotion</title>
   <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/main_block_welcome.css">
+  <link rel="stylesheet" href="assets/css/main_block_about.css">
+  <link rel="stylesheet" href="assets/css/media-quares.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
@@ -20,12 +23,35 @@
         <a href="#" class="navigation__links text_transform link_color">portfolio</a>
         <a href="#" class="navigation__links text_transform link_color">testimonials</a>
         <a href="#" class="navigation__links text_transform link_color">contact</a>
-        <a href="#" id="menu" class="navigation__links navigation__icon link_color">&#9776;</a>
+        <a href="#" id="menu" class="navigation__links navigation__icon link_color no_hover">&#9776;</a>
       </div>
     </nav>
   </header>
-  <main>
-
+  <main class="main-block">
+    <div class="main-block__welcome">
+      <h1 class="main-block__heading welcome_color text_transform">welcome on <span class="main-block__welcome--orange">tigermotion</span></h1>
+      <p class="main-block__text">
+        We are a digital agency with years of expirience and with extraordinary people
+      </p>
+    </div>
+    <div class="main-block__wrapper">
+      <div class="main-block__about">
+        <div class="main-block__about-left">
+          <img class="main-block__img" src="assets/img/left-side.png" width="506" height="408" alt="mac"/>
+        </div>
+        <div class="main-block__about-right">
+          <h1 class="main-block__about-heading text_transform">some words <span>about us</span></h1>
+          <p class="main-block__about-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. DolorLorem ipsum dolor sit amet. DolorLorem ipsum dolor sit amet.
+          </p>
+          <ul>
+            <li class="main-block__mark">Mission - We deliver uniqueness and quality</li>
+            <li class="main-block__mark">Skills - Delivering fast and excellent results</li>
+            <li class="main-block__mark">Clients - Satisfied clients thanks to our experience</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </main>
   <script src="assets/js/menu.js"></script>
 </body>
